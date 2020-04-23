@@ -13,7 +13,6 @@ function App() {
 
   async function handleAddRepository() {
     const response = await api.post("repositories", {
-      id: "1",
       title: "Novo repositorio ",
       url: "https://github.com/Leozartino/jogo-da-velha.git",
       techs: ["CSS", "Javascript", "HTML"],
